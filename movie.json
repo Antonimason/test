@@ -1,0 +1,24 @@
+{
+    "movies":[
+        {
+            "id":"1",
+            "title":"Fast X",
+            "year":"2023",
+            "genre":"Action, Adventure, Crimen",
+            "director":"Louis Leterrier",
+            "actors":"Vin Diesel, Jason Momoa, Alan Ritchson, Rita Moreno, Michelle Rodriguez, Brie Larson",
+            "synopsis":"Over many missions and against impossible odds, Dom Toretto and his family have outsmarted and outdriven every foe in their path. Now, they must confront the most lethal opponent they've ever faced. Fueled by revenge, a terrifying threat emerges from the shadows of the past to shatter Dom's world and destroy everything -- and everyone -- he loves.",
+            "imageUrl":"https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/aa454069-1f38-4db1-a9e3-75d6b00c42e8/dfys5s9-96c68a4a-5d6a-4fe2-8815-9db1d2f4c151.jpg/v1/fit/w_750,h_1072,q_70,strp/fast_x_poster_by_akithefull_dfys5s9-375w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTgyOSIsInBhdGgiOiJcL2ZcL2FhNDU0MDY5LTFmMzgtNGRiMS1hOWUzLTc1ZDZiMDBjNDJlOFwvZGZ5czVzOS05NmM2OGE0YS01ZDZhLTRmZTItODgxNS05ZGIxZDJmNGMxNTEuanBnIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.LQfa9utoB2HvRurkB7bglXC8MQKWHJvSkaeATF6r9mU"
+        },
+        {
+            "id":"2",
+            "title":"Anyone but You",
+            "Year":"2023",
+            "genre":"Comedy, Romance",
+            "director":"Will Gluck",
+            "actors":"Sydney Sweeney, Glen Powell, Alexandra Shipp",
+            "synopsis":"Despite an amazing first date, Bea and Ben's initial attraction quickly turns sour. However, when they unexpectedly find themselves at a destination wedding in Australia, they pretend to be the perfect couple to keep up appearances.",
+            "imageUrl":"https://eastside-online.org/wp-content/uploads/2024/01/anyone-but-you-predictions-v0-e1cbqy6cm23c1.webp"
+        }
+    ]
+}

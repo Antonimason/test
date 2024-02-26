@@ -1,0 +1,258 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    background-color:black;
+}
+
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position:relative;
+    height: 100%;
+}
+.header{
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:10;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height:8vh;
+    background:rgb(219, 219, 219);
+}
+.header-container{
+    width:100%;
+    max-width:100rem;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    height:100%;
+    padding: 0 20px 0 20px;
+    background:transparent;
+    
+}
+.project-title{
+    font-size: 1.3em;
+    color:black;
+    background: transparent;
+}
+.search{
+    width: 15rem;
+    height:2rem;
+    border-radius:10px;
+    border:none;
+    background: #252525;
+    color:white;
+}
+.search::placeholder{
+    color:white;
+    padding-left: 10px;
+}
+.carrousel{
+    display:flex;
+    flex-direction: row;
+    width:100%;
+    max-width:100rem;
+    margin-top: 8dvh;
+    height:92dvh;
+    background-color:rgb(68, 68, 68);
+    position:relative;
+}
+.back{
+    top:0;
+    left:0;
+}
+.backward,.forward{
+    background: grey;
+    border-radius: 10px;
+    padding: 5px 10px;
+    text-align:center;
+}
+.backward:hover,.forward:hover{
+    background: rgb(167, 167, 167);
+}
+.forth{
+    top:0;
+    right:0;
+}
+.button-carousel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100px; 
+    height:100%;
+    font-size: 35px;
+    font-weight: bold;
+    background: transparent;
+    cursor: pointer;
+    z-index:1;
+}
+
+.carrousel-image{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.picture{
+    object-fit: cover;
+    position:relative;
+    width:100%;
+    height:100%;
+}
+.carousel-title{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    bottom:0;
+    right:0;
+    width: 100%;
+    margin:0 auto;
+    padding: 0 20px;
+    height:60px;
+    font-size: 1.5rem;
+    z-index:1;
+    background:rgba(186, 186, 186, 0.8);
+    color:black;
+}
+
+/*movie content*/
+
+.movieInfo-container{
+    width: 100%;
+    max-width: 100rem;
+    display:none;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin-top: 5vh;
+    position:relative;
+}
+.escape{
+    width:100%;
+    font-size: 50px;
+    color: white;
+    cursor: pointer;
+    text-align: right;
+    margin: 10px 30px 0 0;
+}
+.movie-content{
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    color:white;
+    background:transparent;
+}
+.movie-content-firstLine,.movie-content-secondLine,.movie-content-thirdLine,.movie-synopsis{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap:wrap;
+    margin: 10px 20px;
+    flex-direction: column;
+    padding: 10px 0 10px 0;
+    background:transparent;
+    max-width: 1000px;
+}
+.movie-title{
+    font-size: 2em;
+    text-align:center;
+}
+.movie-synopsis{
+    text-align:center;
+    background:transparent;
+}
+.booking{
+    padding: 10px 30px;
+    cursor:pointer;
+    color:white;
+    font-weight: bold;
+    font-size: 1.3em;
+    background:rgb(255, 45, 45);
+    border-radius:10px;
+    border: none;
+}
+
+.booking:hover{
+    background:rgb(247, 99, 99);
+}
+
+.movie-img{
+    width: 200px;
+    height: 300px;
+}
+
+@media (width > 1000px) {
+    .movie-content-firstLine{
+        gap: 20%;
+    }
+    .movie-content-secondLine,.movie-content-thirdLine,.movie-synopsis{
+        flex-direction: row;
+        gap: 20%;
+    }
+}
+
+
+/* MOPVIE LIST ------------------------*/
+
+.movies-list{
+    width: 100%;
+    max-width: 100rem;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.movie{
+    width: 100%;
+    height: 480px;
+    margin: 0 5px;
+    color:white;
+    font-size: 1.5em;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    flex-direction: column;
+}
+
+.desactive{
+    display:none;
+}
+.movieListPicture{
+    width: 80%;
+    height: 400px;
+    margin: 0 auto;
+    padding-bottom: 15px;
+    object-fit: cover;
+    cursor: pointer;
+    border-radius: 10px;
+    &&:hover{
+        opacity:0.5;
+    }
+}
+
+
+.movieListName{
+    font-size: 1.5em;
+    color: white;
+    text-align: center;
+}
+@media (width > 600px) {
+    .movie{
+        width: 400px;
+    }
+}
