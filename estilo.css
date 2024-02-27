@@ -256,3 +256,59 @@ body{
         width: 400px;
     }
 }
+
+/*Footer*/
+
+footer{
+    width:100%;
+    height: auto;
+    padding: 10px 0;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap:wrap;
+    color: white;
+    background:rgb(28, 28, 28);
+}
+.college-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: transparent;
+}
+.college-logo{
+    background: white;
+    border-radius: 10px;
+}
+.badge-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+    background: transparent;
+    /*border: 2px solid rgb(13, 165, 241);
+    box-shadow: rgba(92, 240, 248, 0.6) 0px 0px 20px 3px;*/
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.badge{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 50px;
+    background:transparent;
+}
+.student-picture{
+    width: 50px;
+    height:50px;
+    border-radius:50%;
+    margin-right: 10px;
+    border: 2px solid rgb(13, 165, 241);
+    box-shadow: rgba(92, 240, 248, 0.6) 0px 0px 20px 3px;
+}
+.student-name{
+    background:transparent;
+    font-size: 1.1em;
+}
