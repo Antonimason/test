@@ -25,6 +25,9 @@
     <div class="movieInfo-container">
         <div class="escape">x</div>
         <div class="movie-content">
+            <video class="movie-trailer" width="400px" height="300px" controls="true">
+                <source class="video-source" src="https://youtu.be/HtAkUhTjvxI"/>
+            </video>
             <div class="movie-content-firstLine">
                 <img src="" alt="" class="movie-img"></img>
                 <div class="movie-title"></div>
@@ -40,14 +43,41 @@
                 <div class="movie-actors"></div>
             </div>
             <div class="movie-synopsis"></div>
-            <button class="booking">Book now</button>
+            <a href="#myForm" class="booking">Book now</a>
         </div>
     </div>
+    <form class="form" id="myForm">
+        <label for="firstName">First Name</label>
+        <input type="text" id="firstName" required/>
+        <label for="lastName">Last Name</label>
+        <input type="text" id="lastName" required/>
+        <label for="email">Email Address</label>
+        <input type="email" id="email" required/>
+        <label for="cinema">Choose your cinema</label>
+        <select id="cinema" required>
+            <option class="option">Select a Cinema</option>
+            <option class="option" value="Dundrum SC">Dundrum SC</option>
+            <option class="option" value="Ovni Sc">Ovni SC</option>
+            <option class="option" value="Claire Hall SC">Claire Hall SC</option>
+        </select>
+        <label for="time">Choose the time</label>
+        <select id="time" required>
+            <option class="option" value="13:00">13:00</option>
+            <option class="option" value="15:30">15:30</option>
+            <option class="option" value="17:25">17:25</option>
+            <option class="option" value="20:40">20:40</option>
+            <option class="option" value="22:40">22:20</option>
+        </select>
+        <label for="ticketQuantity">Ticket Amount</label>
+        <input id="ticketQuantity" type="number" min="0" max="10" required/>
+        <div class="button-section">
+            <input type="button" class="setButton cancel" value="cancel" />
+            <input type="submit" class="setButton book" value="Book Ticket" />
+        </div>
+    </form>
 
     <div class="movies-list">
         <div class="movie">
-            <img src="" id=${e.id} alt="${e.title}" class="movieListPicture"/>
-                <h3 class="movieListName">${e.title}</h3>
         </div>
     </div>
     <footer>

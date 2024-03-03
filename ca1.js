@@ -16,7 +16,7 @@ const Json = `{
             "synopsis":"Coriolanus Snow mentors and develops feelings for the female District 12 tribute during the 10th Hunger Games.",
             "imageUrl":"https://image.tmdb.org/t/p/original/9cbeNkXx0OTC9pg30OZIWRi9HmL.jpg",
             "image2Url":"https://media.cinemacloud.co.uk/imageFilm/1621_1_1.jpg",
-            "videoUrl":"https://youtu.be/NxW_X4kzeus"
+            "videoUrl":"https://www.youtube.com/watch?v=NxW_X4kzeus"
         },
         {
             "id":"6",
@@ -527,7 +527,7 @@ window.addEventListener("load", () => {
     searcher.addEventListener("keyup", e=>{
         movieSearched.forEach(movieSelected =>{
             //---if the movie if found a new class should be added to the div in order to appear selected movie and disappear the other movies--//
-            if(movieSelected.textContent.toLowerCase().includes(e.target.value.toLowerCase())){
+            if(movieSelected.textContent.toLowerCase().includes(e.target.value.toLowerCase().trim())){
                 movieSelected.classList.remove("desactive");
             } else {
                 movieSelected.classList.add("desactive");
@@ -614,7 +614,7 @@ function showMoviesList(){
 
 const movieContainer = document.querySelector(".movieInfo-container");
 const escape = document.querySelector(".escape").addEventListener("click",e=>closeMovieContent())
-const movieVideo = document.querySelector(".movie-video");
+const movieVideo = document.querySelector(".video-source");
 const movieBg = document.querySelector(".movie-content2");
 const movieImg = document.querySelector(".movie-img");
 const movieTitle = document.querySelector(".movie-title");
@@ -625,6 +625,9 @@ const movieAge = document.querySelector(".movie-age");
 const movieDirector = document.querySelector(".movie-director");
 const movieActors = document.querySelector(".movie-actors");
 const movieSynopsis = document.querySelector(".movie-synopsis");
+const bookingButton = document.querySelector(".booking").addEventListener("click", e=>{
+    myForm(true);
+})
 
 
 //----------------Function to display the clicked movie information-------------
@@ -634,6 +637,8 @@ function showMovieContent(idNumber){
     let id = idNumber - 1;
         //movieVideo.setAttribute("src",myJson.movies[id].videoUrl);
         movieContainer.style.display ="flex";
+        console.log(myJson.movies[id].videoUrl)
+        //movieVideo.setAttribute("src",myJson.movies[id].videoUrl);
         movieImg.setAttribute("src",myJson.movies[id].imageUrl);
         movieTitle.textContent = `${myJson.movies[id].title}`;
         movieRuntime.textContent = `Runtime: ${myJson.movies[id].runtime}`;
@@ -650,7 +655,27 @@ function closeMovieContent(){
     movieContainer.style.display = "none";
     listContainer.style.display = "flex";
     carousel.style.display = "flex";
+    myForm(false);
 }
 
 //--------------------------------------------------------------------------------------------------------------------------//
 
+//---------------------------------FORM------------------------------------
+const form = document.getElementById("myForm");
+const cancel = document.querySelector(".cancel").addEventListener("click", e=>{
+    myFormCancel();
+});
+const book = document.querySelector(".book");
+
+function myForm(OC){
+    if(OC) form.style.display = "flex";
+    else form.style.display = "none"; 
+}
+
+function myFormCancel(){
+    form.style.display = "none";
+}
+
+function myFormBook(){
+
+}
