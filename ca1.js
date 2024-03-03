@@ -16,7 +16,7 @@ const Json = `{
             "synopsis":"Coriolanus Snow mentors and develops feelings for the female District 12 tribute during the 10th Hunger Games.",
             "imageUrl":"https://image.tmdb.org/t/p/original/9cbeNkXx0OTC9pg30OZIWRi9HmL.jpg",
             "image2Url":"https://media.cinemacloud.co.uk/imageFilm/1621_1_1.jpg",
-            "videoUrl":"https://www.youtube.com/watch?v=NxW_X4kzeus"
+            "videoUrl":"https://www.youtube.com/embed/NxW_X4kzeus"
         },
         {
             "id":"6",
@@ -81,7 +81,7 @@ const Json = `{
             "title":"Fast X",
             "runtime":"2h 21m",
             "ageClassification":"12A",
-            "year":"2023",
+            "Year":"2023",
             "genre":"Action, Adventure, Crimen",
             "director":"Louis Leterrier",
             "actors":"Vin Diesel, Jason Momoa, Alan Ritchson, Rita Moreno, Michelle Rodriguez, Brie Larson",
@@ -116,7 +116,7 @@ const Json = `{
             "synopsis":"Black Manta seeks revenge on Aquaman for his father's death. Wielding the Black Trident's power, he becomes a formidable foe. To defend Atlantis, Aquaman forges an alliance with his imprisoned brother. They must protect the kingdom.",
             "imageUrl":"https://cdn.europosters.eu/image/1300/posters/aquaman-and-the-lost-kingdom-tempest-i198189.jpg",
             "image2Url":"https://m.media-amazon.com/images/M/MV5BNjMxM2Y4NjMtNmE4OC00NDRkLWJlZGItNzI2ZGYxMWQ2MzYwXkEyXkFqcGdeQWFybm8@._V1_QL75_UX500_CR0,0,500,281_.jpg",
-            "videoUrl":"https://youtu.be/FV3bqvOHRQo"
+            "videoUrl":"https://www.youtube.com/embed/FV3bqvOHRQo"
         },
         {
             "id":"4",
@@ -130,7 +130,7 @@ const Json = `{
             "synopsis":"Coriolanus Snow mentors and develops feelings for the female District 12 tribute during the 10th Hunger Games.",
             "imageUrl":"https://image.tmdb.org/t/p/original/9cbeNkXx0OTC9pg30OZIWRi9HmL.jpg",
             "image2Url":"https://m.media-amazon.com/images/M/MV5BZDJmNDIxZjktYjA3YS00ZDQzLWJmMGYtOTBkY2FjOGY3ZDZjXkEyXkFqcGdeQWFybm8@._V1_QL75_UX500_CR0,0,500,281_.jpg",
-            "videoUrl":"https://youtu.be/NxW_X4kzeus"
+            "videoUrl":"https://www.youtube.com/embed/NxW_X4kzeus"
         },
         {
             "id":"5",
@@ -615,7 +615,7 @@ function showMoviesList(){
 const movieContainer = document.querySelector(".movieInfo-container");
 const escape = document.querySelector(".escape").addEventListener("click",e=>closeMovieContent())
 const movieVideo = document.querySelector(".video-source");
-const movieBg = document.querySelector(".movie-content2");
+const movieBg = document.querySelector(".movie-content");
 const movieImg = document.querySelector(".movie-img");
 const movieTitle = document.querySelector(".movie-title");
 const movieRuntime = document.querySelector(".movie-runtime");
@@ -638,12 +638,13 @@ function showMovieContent(idNumber){
         //movieVideo.setAttribute("src",myJson.movies[id].videoUrl);
         movieContainer.style.display ="flex";
         console.log(myJson.movies[id].videoUrl)
-        //movieVideo.setAttribute("src",myJson.movies[id].videoUrl);
-        movieImg.setAttribute("src",myJson.movies[id].imageUrl);
+        //movieVideo.src = myJson.movie[id].videoUrl;
+        movieImg.setAttribute("src",myJson.movies[id].image2Url);
+        movieImg.setAttribute("alt",myJson.movies[id].title);
         movieTitle.textContent = `${myJson.movies[id].title}`;
         movieRuntime.textContent = `Runtime: ${myJson.movies[id].runtime}`;
         movieGenre.textContent = `Genre: ${myJson.movies[id].genre}`;
-        movieYear.textContent = `Release Year: ${myJson.movies[id].year}`;
+        movieYear.textContent = `Release Year: ${myJson.movies[id].Year}`;
         movieAge.textContent = `Age Classification: ${myJson.movies[id].ageClassification}`;
         movieDirector.textContent = `Director: ${myJson.movies[id].director}`;
         movieActors.textContent = `Actors: ${myJson.movies[id].actors}`;

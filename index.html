@@ -23,30 +23,29 @@
     </div>
 
     <div class="movieInfo-container">
-        <div class="escape">x</div>
+        <div class="escape-container">
+            <p class="escape">x</p>
+        </div>
         <div class="movie-content">
-            <video class="movie-trailer" width="400px" height="300px" controls="true">
-                <source class="video-source" src="https://youtu.be/HtAkUhTjvxI"/>
-            </video>
+ 
             <div class="movie-content-firstLine">
                 <img src="" alt="" class="movie-img"></img>
                 <div class="movie-title"></div>
             </div>
             <div class="movie-content-secondLine">
-                <p class="movie-runtime"></p>
-                <p class="movie-genre"></p>
-                <p class="movie-year"></p>
+                <p class="movie-runtime space"></p>
+                <p class="movie-genre space"></p>
+                <p class="movie-year space"></p>
+                <p class="movie-age space"></p>
+                <p class="movie-director space"></p>
+                <p class="movie-actors space"></p>
+                <p class="movie-synopsis space"></p>
             </div>
-            <div class="movie-content-thirdLine">
-                <div class="movie-age"></div>
-                <div class="movie-director"></div>
-                <div class="movie-actors"></div>
-            </div>
-            <div class="movie-synopsis"></div>
             <a href="#myForm" class="booking">Book now</a>
         </div>
     </div>
     <form class="form" id="myForm">
+        <h3 class="form-detail">Introduce your personal information</h3>
         <label for="firstName">First Name</label>
         <input type="text" id="firstName" required/>
         <label for="lastName">Last Name</label>
