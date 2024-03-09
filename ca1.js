@@ -614,7 +614,7 @@ function showMoviesList(){
 
 const movieContainer = document.querySelector(".movieInfo-container");
 const escape = document.querySelector(".escape").addEventListener("click",e=>closeMovieContent())
-const movieVideo = document.querySelector(".video-source");
+const movieVideo = document.querySelector(".movie-video");
 const movieBg = document.querySelector(".movie-content");
 const movieImg = document.querySelector(".movie-img");
 const movieTitle = document.querySelector(".movie-title");
@@ -635,6 +635,7 @@ function showMovieContent(idNumber){
     listContainer.style.display = "none";
     carousel.style.display = "none";
     let id = idNumber - 1;
+        selectMovieTrailer(myJson.movies[id].videoUrl);
         //movieVideo.setAttribute("src",myJson.movies[id].videoUrl);
         movieContainer.style.display ="flex";
         console.log(myJson.movies[id].videoUrl)
@@ -651,22 +652,74 @@ function showMovieContent(idNumber){
         movieSynopsis.textContent = `Synopsis: ${myJson.movies[id].synopsis}`;
 }
 
+let currentVideoElement = null;
+function selectMovieTrailer(movie){
+    if (currentVideoElement) {
+        movieVideo.removeChild(currentVideoElement);
+    }
+    let videoElement = document.createElement("iframe");
+    videoElement.width = "560"; // Video width
+    videoElement.height = "315"; // Video height
+    videoElement.src = movie.replace("watch?v=", "embed/"); // Converting youtube link to embed format
+
+    movieVideo.appendChild(videoElement);
+
+    currentVideoElement = videoElement;
+}
 //-------------------Function to close the box when 'X' is clicked--------------------
 function closeMovieContent(){
     movieContainer.style.display = "none";
     listContainer.style.display = "flex";
     carousel.style.display = "flex";
+    movieVideo.removeChild(videoElement);
     myForm(false);
 }
 
 //--------------------------------------------------------------------------------------------------------------------------//
 
 //---------------------------------FORM------------------------------------
+
+//---------VALIDATOR VARIABLES--------//
+let fn;
+let ln;
+let ea;
+let cin;
+let tim;
+let tick;
+//------------------------------------//
+
+//----------MESSAGES VARIBLES---------//
+const firstNameMessage = document.querySelector(".firstN");
+const lastNameMessage = document.querySelector(".lastN");
+const emailMessage = document.querySelector(".emailA");
+const cinemaMessage = document.querySelector(".cine");
+const timeMessage = document.querySelector(".tim");
+const ticketMessage = document.querySelector(".ticketQ");
+//-----------------------------------//
+
 const form = document.getElementById("myForm");
+
 const cancel = document.querySelector(".cancel").addEventListener("click", e=>{
     myFormCancel();
 });
-const book = document.querySelector(".book");
+
+const firstName = document.getElementById("firstName");
+firstName.addEventListener("keyup",e=>{inputLength(e.target.value,firstName)});
+
+const lastName = document.getElementById("lastName");
+lastName.addEventListener("keyup",e=>{inputLength(e.target.value,lastName)});
+
+const emailAddress = document.getElementById("email");
+emailAddress.addEventListener("keyup",e=>{emailChecker(e.target.value)});
+
+const cinema = document.getElementById("cinema");
+cinema.addEventListener("change",e=>{cinemaChecker(e.target.value)});
+
+const schedule = document.getElementById("time");
+schedule.addEventListener("change",e=>{timeChecker(e.target.value)});
+
+const ticketAmount = document.getElementById("ticketQuantity");
+ticketAmount.addEventListener("change",e=>{ticketChecker(e.target.value)});
 
 function myForm(OC){
     if(OC) form.style.display = "flex";
@@ -677,6 +730,82 @@ function myFormCancel(){
     form.style.display = "none";
 }
 
-function myFormBook(){
-
+function inputLength(value,obj){
+    if(value.length > 1 && value.match("^[a-zA-Z]+$")){
+        obj.style.border = "3px solid green";
+        if(obj == firstName){
+            fn = true;
+            firstNameMessage.textContent = "";
+        }
+        else{
+            ln = true;
+            lastNameMessage.textContent = "";
+        }
+    }else {
+        obj.style.border = "3px solid red";
+        if(obj == firstName){
+            fn = false;
+            firstNameMessage.textContent = "First Name must be letters and no less than 2";
+        }else{
+            ln = false;
+            lastNameMessage.textContent = "Last Name must be letters and no less than 2";
+        } 
+    }
 }
+
+function emailChecker(email){
+    let regexPattern = "^(?=.{1,64}@)[A-Za-z0-9_-]+(\\.[A-Za-z0-9_-]+)*@" 
+        + "[^-][A-Za-z0-9-]+(\\.[A-Za-z0-9-]+)*(\\.[A-Za-z]{2,})$";
+    if(email.match(regexPattern)){
+        emailAddress.style.border = "3px solid green"; 
+        ea =true;
+        emailMessage.textContent = "";
+    }
+    else{
+        emailAddress.style.border = "3px solid red";
+        ea=false;
+        emailMessage.textContent = "Please introduce a valid email address";
+    }
+}
+function cinemaChecker(cinemaSelected){
+    if(cinemaSelected != "cinema"){
+        cinema.style.border = "3px solid green"; 
+        cin = true;
+        cinemaMessage.textContent = "";
+    }else {
+        cinema.style.border = "3px solid red";
+        cin = false;
+        cinemaMessage.textContent = "Please select a cinema";
+    }
+}
+function timeChecker(time){
+    if(time != "time") {
+        schedule.style.border = "3px solid green";
+        tim=true;
+        timeMessage.textContent = "";
+    }else {
+        schedule.style.border = "3px solid red";
+        tim=false;
+        timeMessage.textContent = "Please select a valid time";
+    }
+}
+
+function ticketChecker(ticket){
+    if(ticket >= 1 && ticket <= 10){
+        ticketAmount.style.border = "3px solid green";
+        tick = true;
+        ticketMessage.textContent = "";
+    } 
+    else{ 
+        ticketAmount.style.border = "3px solid red";
+        tick = false;
+        ticketMessage.textContent = "Please introduce a ticket from 1 to 10";
+    }
+}
+
+const book = document.querySelector(".book").addEventListener("click",e=>{
+    if(fn == true && ln == true && ea == true && cin == true && tim == true && tick == true){
+        myFormCancel();
+        console.log("well done")
+    }
+});

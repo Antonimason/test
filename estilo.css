@@ -41,7 +41,7 @@ body{
     
 }
 .project-title{
-    font-size: 1.3em;
+    font-size: 1em;
 }
 .search{
     width: 15rem;
@@ -55,6 +55,13 @@ body{
     color:rgb(118, 118, 118);
     padding-left: 10px;
 }
+
+@media screen and (width > 800px) {
+    .project-title{
+        font-size: 1.3em;
+    }
+}
+/*------------Carousel------------*/
 .carrousel{
     display:flex;
     flex-direction: row;
@@ -300,18 +307,19 @@ label{
     max-width:500px;
     text-align: left;
     background:transparent;
+    margin: 15px 0 0 0;
 }
 input, select{
     background: rgb(189, 189, 189);
     color: white;
     width: 100%;
     max-width: 500px;
-    margin: 10px 0 ;
+    margin: 5px 0 ;
     height: 35px;
     color:black;
     font-size: 1.2em;
     border-radius: 10px;
-    border:none;
+    border:1px solid;
     outline-style: none;
     &&:focus{
         border: 1px solid rgba(255, 255, 255, 0.5);
@@ -333,9 +341,18 @@ input, select{
 
 .setButton{
     cursor: pointer;
-    width: 100px;
+    width: 120px;
     height: 50px;
+    color: white;
+    border: none;
+    margin: 20px 0;
+}
 
+.cancel{
+    background: rgb(124, 124, 124);
+}
+.book{
+    background: rgb(255, 45, 45);
 }
 
 @media (width > 600px) {
