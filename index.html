@@ -7,28 +7,30 @@
     <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
+    <!--   Header    -->
     <header class="header">
         <div class="header-container">
             <h1 class="project-title">CCT Rental Movie</h1>
             <input class="search" type="text" placeholder="Search.."/>
         </div>
     </header>
+    <!--  Carousel display box-->
     <div class="carrousel" id="container1">
         <div class="back button-carousel"><p class="backward">&lt</p></div>
         <div class="carrousel-image">
-            <img class="picture" id="4" src="https://media.cinemacloud.co.uk/imageFilm/1621_1_1.jpg" alt="">
+            <img class="picture" id="4" src="https://i.ytimg.com/vi/Pf3Njr97siM/maxresdefault.jpg" alt="">
             <h3 class="carousel-title">The Hunger Games</h3>
         </div>
         <div class="forth button-carousel"><p class="forward">&gt</p></div>
     </div>
-
+    <!--        Movie Content box     -->
     <div class="movieInfo-container">
         <div class="escape-container">
             <p class="escape">x</p>
         </div>
         <div class="movie-content">
+            <h4 id="trailer-title">Trailer</h4>
             <div class="movie-video">
-
             </div>
             <div class="movie-content-firstLine">
                 <img src="" alt="" class="movie-img"></img>
@@ -46,6 +48,7 @@
             <a href="#myForm" class="booking">Book now</a>
         </div>
     </div>
+    <!--                Form box             -->
     <form class="form" id="myForm">
         <h3 class="form-detail">Introduce your personal information</h3>
         <label for="firstName">First Name</label>
@@ -77,26 +80,26 @@
             <input type="submit" class="setButton book" value="Book Ticket" />
         </div>
     </form>
-
-    <div class="movies-list">
-        <div class="movie">
-        </div>
-    </div>
+    <!--     Movie Catalog    -->
+    <h4 id="movieList-title">Screenings for Dublin</h4>
+    <div class="movies-list"></div>
+    <!--     Footer      -->
     <footer>
         <div class="college-container">
             <img class="college-logo" src="https://www.cct.ie/wp-content/uploads/CCT_Logo_New_Aug_17-289x100.png" alt="" />
         </div>
             <div class="badge-container">
                 <div class="badge">
-                    <img class="student-picture" src="" alt=""/>
+                    <img class="student-picture" src="" alt="Ana Claudia"/>
                     <p class="student-name">Ana Claudia de Proenca</p>
                 </div>
                 <div class="badge">
-                    <img class="student-picture" src="antonio.jpg" alt=""/>
+                    <img class="student-picture" src="antonio.jpg" alt="Antonio Giambra"/>
                     <p class="student-name">Antonio Giambra</p>
                 </div>
             </div>
     </footer>
 </body>
+<!--       Script      -->
 <script src="ca1.js"></script>
 </html>

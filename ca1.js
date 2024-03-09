@@ -1,4 +1,4 @@
-"use strict"
+"use strict";
 
 //---------------------------------------------------JSON--------------------------------------------------------------//
 
@@ -30,7 +30,7 @@ const Json = `{
             "synopsis":"A student at Oxford University finds himself drawn into the world of a charming and aristocratic classmate, who invites him to his eccentric family's sprawling estate for a summer never to be forgotten.",
             "imageUrl":"https://cdn.cinematerial.com/p/297x/wxxe27sa/saltburn-movie-poster-md.jpg?v=1698458958",
             "image2Url":"https://peachz.ca/wp-content/uploads/2023/12/p25479414_v_h10_aa.jpg",
-            "videoUrl":"https://youtu.be/lALMdJf6UUE"
+            "videoUrl":"https://www.youtube.com/watch?v=lALMdJf6UUE"
         },
         {
             "id":"27",
@@ -42,9 +42,9 @@ const Json = `{
             "director":"Steven Spielberg",
             "actors":"Sam Neill, Laura Dern, Jeff Goldblum",
             "synopsis":"A pragmatic paleontologist touring an almost complete theme park on an island in Central America is tasked with protecting a couple of kids after a power failure causes the park's cloned dinosaurs to run loose.",
-            "imageUrl":"https://m.media-amazon.com/images/I/91XMXQCZwKL._AC_UF350,350_QL80_.jpg",
+            "imageUrl":"https://m.media-amazon.com/images/I/81AGqBcpYOL._AC_UF894,1000_QL80_.jpg",
             "image2Url":"https://images.squarespace-cdn.com/content/v1/5f614b4400b39c4c38b67f3e/1647902522870-A2YTUJPA78C146FGOUIB/2482_TP_00001R.jpg",
-            "videoUrl":"https://youtu.be/lc0UehYemQA"
+            "videoUrl":"https://www.youtube.com/watch?v=E8WaFvwtphY"
         },
         {
             "id":"7",
@@ -58,7 +58,7 @@ const Json = `{
             "synopsis":"With dreams of opening a shop in a city renowned for its chocolate, a young and poor Willy Wonka discovers that the industry is run by a cartel of greedy chocolatiers.",
             "imageUrl":"https://www.odeoncinemas.ie/media/yoxan4jg/gb_wonka_insta_vert_character_art_timothee_chalamet_1638x2048_intl-1.jpg",
             "image2Url":"https://movies.sterkinekor.co.za/CDN/media/entity/get/FilmTitleGraphic/HO00002837?referenceScheme=HeadOffice&allowPlaceHolder=true",
-            "videoUrl":"https://youtu.be/otNh9bTjXWg"
+            "videoUrl":"https://www.youtube.com/watch?v=EJoom2F-7nI"
         },
         {
             "id":"9",
@@ -72,7 +72,7 @@ const Json = `{
             "synopsis":"During the 1980s, a failed stand-up comedian is driven insane and turns to a life of crime and chaos in Gotham City while becoming an infamous psychopathic crime figure.",
             "imageUrl":"https://artofthemovies.co.uk/cdn/shop/products/IMG_7868_1024x1024@2x.jpg?v=1646737198",
             "image2Url":"https://assets-in.bmscdn.com/discovery-catalog/events/et00100071-vygbykdesp-landscape.jpg",
-            "videoUrl":"https://youtu.be/zAGVQLHvwOY"
+            "videoUrl":"https://www.youtube.com/watch?v=t433PEQGErc"
         }
     ],
     "movies":[
@@ -88,7 +88,7 @@ const Json = `{
             "synopsis":"Over many missions and against impossible odds, Dom Toretto and his family have outsmarted and outdriven every foe in their path. Now, they must confront the most lethal opponent they've ever faced. Fueled by revenge, a terrifying threat emerges from the shadows of the past to shatter Dom's world and destroy everything -- and everyone -- he loves.",
             "imageUrl":"https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/aa454069-1f38-4db1-a9e3-75d6b00c42e8/dfys5s9-96c68a4a-5d6a-4fe2-8815-9db1d2f4c151.jpg/v1/fit/w_750,h_1072,q_70,strp/fast_x_poster_by_akithefull_dfys5s9-375w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTgyOSIsInBhdGgiOiJcL2ZcL2FhNDU0MDY5LTFmMzgtNGRiMS1hOWUzLTc1ZDZiMDBjNDJlOFwvZGZ5czVzOS05NmM2OGE0YS01ZDZhLTRmZTItODgxNS05ZGIxZDJmNGMxNTEuanBnIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.LQfa9utoB2HvRurkB7bglXC8MQKWHJvSkaeATF6r9mU",
             "image2Url":"https://www.cnet.com/a/img/resize/e40db3b1ecae8c7de688981520ac2c3d8c7c9617/hub/2023/08/16/23d96691-7b64-4113-81f8-71f8430f9aff/fast-x-peacock.jpg?auto=webp&width=1200",
-            "videoUrl":"https://youtu.be/32RAq6JzY-w"
+            "videoUrl":"https://www.youtube.com/watch?v=32RAq6JzY-w"
         },
         {
             "id":"2",
@@ -102,7 +102,7 @@ const Json = `{
             "synopsis":"Despite an amazing first date, Bea and Ben's initial attraction quickly turns sour. However, when they unexpectedly find themselves at a destination wedding in Australia, they pretend to be the perfect couple to keep up appearances.",
             "imageUrl":"https://eastside-online.org/wp-content/uploads/2024/01/anyone-but-you-predictions-v0-e1cbqy6cm23c1.webp",
             "image2Url":"https://media.vanityfair.com/photos/65844a4cb644f728430cf119/master/w_2560%2Cc_limit/anyone-but-you-review.jpg",
-            "videoUrl":"https://youtu.be/S61xB-rE770"
+            "videoUrl":"https://www.youtube.com/watch?v=UtjH6Sk7Gxs"
         },
         {
             "id":"3",
@@ -144,7 +144,7 @@ const Json = `{
             "synopsis":"The story of American scientist J. Robert Oppenheimer and his role in the development of the atomic bomb.",
             "imageUrl":"https://upload.wikimedia.org/wikipedia/fi/thumb/8/84/Oppenheimer-poster.jpg/800px-Oppenheimer-poster.jpg",
             "image2Url":"https://upload.wikimedia.org/wikipedia/it/a/ab/Oppenheimer_%28film%29.png",
-            "videoUrl":"https://youtu.be/bK6ldnjE3Y0"
+            "videoUrl":"https://www.youtube.com/watch?v=uYPbbksJxIg"
         },
         {
             "id":"6",
@@ -158,7 +158,7 @@ const Json = `{
             "synopsis":"A student at Oxford University finds himself drawn into the world of a charming and aristocratic classmate, who invites him to his eccentric family's sprawling estate for a summer never to be forgotten.",
             "imageUrl":"https://cdn.cinematerial.com/p/297x/wxxe27sa/saltburn-movie-poster-md.jpg?v=1698458958",
             "image2Url":"https://www.irishtimes.com/resizer/7Ms12LgP8RyH9lHkRObFimEk5v0=/1600x1200/filters:format(jpg):quality(70):focal(1680x755:1690x765)/cloudfront-eu-central-1.images.arcpublishing.com/irishtimes/2K3RH27C4FB75JRW4XFIGDK2QE.jpg",
-            "videoUrl":"https://youtu.be/lALMdJf6UUE"
+            "videoUrl":"https://www.youtube.com/watch?v=lALMdJf6UUE"
         },
         {
             "id":"7",
@@ -172,7 +172,7 @@ const Json = `{
             "synopsis":"With dreams of opening a shop in a city renowned for its chocolate, a young and poor Willy Wonka discovers that the industry is run by a cartel of greedy chocolatiers.",
             "imageUrl":"https://www.odeoncinemas.ie/media/yoxan4jg/gb_wonka_insta_vert_character_art_timothee_chalamet_1638x2048_intl-1.jpg",
             "image2Url":"https://www.odeoncinemas.ie/media/utxc2y5n/rev-1-won-cc-0001r_high_res_jpeg-1.jpg",
-            "videoUrl":"https://youtu.be/otNh9bTjXWg"
+            "videoUrl":"https://www.youtube.com/watch?v=EJoom2F-7nI"
         },
         {
             "id":"8",
@@ -186,7 +186,7 @@ const Json = `{
             "synopsis":"When oil is discovered in 1920s Oklahoma under Osage Nation land, the Osage people are murdered one by one - until the FBI steps in to unravel the mystery.",
             "imageUrl":"https://birchbarkbooks.com/cdn/shop/files/killers-of-the-flower-moon-ya.jpg?v=1690496218",
             "image2Url":"https://upload.wikimedia.org/wikipedia/it/thumb/b/bf/Killers_of_the_Flower_Moon.jpg/800px-Killers_of_the_Flower_Moon.jpg",
-            "videoUrl":"https://youtu.be/7cx9nCHsemc"
+            "videoUrl":"https://www.youtube.com/watch?v=EP34Yoxs3FQ"
         },
         {
             "id":"9",
@@ -200,7 +200,7 @@ const Json = `{
             "synopsis":"During the 1980s, a failed stand-up comedian is driven insane and turns to a life of crime and chaos in Gotham City while becoming an infamous psychopathic crime figure.",
             "imageUrl":"https://artofthemovies.co.uk/cdn/shop/products/IMG_7868_1024x1024@2x.jpg?v=1646737198",
             "image2Url":"https://cdn.vox-cdn.com/thumbor/WAVESAmwUdxWYZKuUr48zpid3nA=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/19187243/joker2.jpg",
-            "videoUrl":"https://youtu.be/zAGVQLHvwOY"
+            "videoUrl":"https://www.youtube.com/watch?v=t433PEQGErc"
         },
         {
             "id":"10",
@@ -214,7 +214,7 @@ const Json = `{
             "synopsis":"The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
             "imageUrl":"https://media.posterlounge.com/img/products/710000/707663/707663_poster.jpg",
             "image2Url":"https://www.okcmoa.com/wp-content/uploads/2022/08/HT-godfatrher-jef-170308_16x9_1600-1340x586.jpg",
-            "videoUrl":"https://youtu.be/UaVTIH8mujA"
+            "videoUrl":"https://www.youtube.com/watch?v=UaVTIH8mujA"
         },
         {
             "id":"11",
@@ -228,7 +228,7 @@ const Json = `{
             "synopsis":"The history of the United States from the 1950s to the '70s unfolds from the perspective of an Alabama man with an IQ of 75, who yearns to be reunited with his childhood sweetheart.",
             "imageUrl":"https://m.media-amazon.com/images/I/81xTx-LxAPL._AC_UF894,1000_QL80_.jpg",
             "image2Url":"https://www.hollywoodreporter.com/wp-content/uploads/2016/07/forrest_gump_still.jpg",
-            "videoUrl":"https://youtu.be/bLvqoHBptjg"
+            "videoUrl":"https://www.youtube.com/watch?v=bLvqoHBptjg"
         },
         {
             "id":"12",
@@ -242,7 +242,7 @@ const Json = `{
             "synopsis":"An insomniac office worker and a devil-may-care soap maker form an underground fight club that evolves into much more.",
             "imageUrl":"https://i.etsystatic.com/18242346/r/il/c9908e/2412674268/il_fullxfull.2412674268_1sgm.jpg",
             "image2Url":"https://media.newyorker.com/photos/5dbafcc91b4a6700085a7a9b/1:1/w_1707,h_1708,c_limit/Baker-FightClub.jpg",
-            "videoUrl":"https://youtu.be/O1nDozs-LxI"
+            "videoUrl":"https://www.youtube.com/watch?v=BdJKm16Co6M"
         },
         {
             "id":"13",
@@ -256,7 +256,7 @@ const Json = `{
             "synopsis":"A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O., but his tragic past may doom the project and his team to disaster.",
             "imageUrl":"https://i.ebayimg.com/images/g/FfsAAOSwrjNgr3rc/s-l1200.webp",
             "image2Url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsDZu_yLlssmeWCn69_xR81yPZD3DUqdOiNdXcw_BOiE0Gbkdvyfa97Cryufm-PGZUfY4&usqp=CAU",
-            "videoUrl":"https://youtu.be/8hP9D6kZseM"
+            "videoUrl":"https://www.youtube.com/watch?v=YoHD9XEInc0"
         },
         {
             "id":"14",
@@ -270,7 +270,7 @@ const Json = `{
             "synopsis":"When a beautiful stranger leads computer hacker Neo to a forbidding underworld, he discovers the shocking truth--the life he knows is the elaborate deception of an evil cyber-intelligence.",
             "imageUrl":"https://m.media-amazon.com/images/I/51DUmDryAvL._AC_UF894,1000_QL80_.jpg",
             "image2Url":"https://img.buzzfeed.com/buzzfeed-static/complex/images/gjlwbw67beqdbqafbzfw/trinity.jpg?output-format=jpg&output-quality=auto",
-            "videoUrl":"https://youtu.be/TPxQqWp7kTA"
+            "videoUrl":"https://www.youtube.com/watch?v=vKQi3bBA1y8"
         },
         {
             "id":"15",
@@ -284,7 +284,7 @@ const Json = `{
             "synopsis":"Two detectives, a rookie and a veteran, hunt a serial killer who uses the seven deadly sins as his motives.",
             "imageUrl":"https://m.media-amazon.com/images/M/MV5BZDgyZmY5MmItY2I3Ny00NjA4LWFhNmItMGQ4ZGJhZDk5YjU3XkEyXkFqcGdeQXVyMTAzMDM4MjM0._V1_.jpg",
             "image2Url":"https://dus09vr7ngt46.cloudfront.net/uploads/2017/10/09151509/seven1.jpg?height=340&width=647",
-            "videoUrl":"https://youtu.be/SpKbZ_3zlb0"
+            "videoUrl":"https://www.youtube.com/watch?v=znmZoVkCjpI"
         },
         {
             "id":"16",
@@ -298,7 +298,7 @@ const Json = `{
             "synopsis":"When Earth becomes uninhabitable in the future, a farmer and ex-NASA pilot, Joseph Cooper, is tasked to pilot a spacecraft, along with a team of researchers, to find a new planet for humans.",
             "imageUrl":"https://i.ebayimg.com/images/g/zu4AAOSw2spbJQ0J/s-l1600.jpg",
             "image2Url":"https://pyxis.nymag.com/v1/imgs/64a/f38/7e691f2213742142e72e47a5ddab44e2ee-01-interstellar.2x.h473.w710.jpg",
-            "videoUrl":"https://youtu.be/zSWdZVtXT7E"
+            "videoUrl":"https://www.youtube.com/watch?v=zSWdZVtXT7E"
         },
         {
             "id":"17",
@@ -312,7 +312,7 @@ const Json = `{
             "synopsis":"Following the Normandy Landings, a group of U.S. soldiers go behind enemy lines to retrieve a paratrooper whose brothers have been killed in action.",
             "imageUrl":"https://media.posterlounge.com/img/products/610000/605804/605804_poster.jpg",
             "image2Url":"https://m.media-amazon.com/images/M/MV5BMWJlZWQ3NDktODc2Zi00NGY4LWI4MDMtYWQwNTUyOWVhMmQxXkEyXkFqcGdeQXRyYW5zY29kZS13b3JrZmxvdw@@._V1_QL75_UX500_CR0,0,500,281_.jpg",
-            "videoUrl":"https://youtu.be/PrthROm6ocY"
+            "videoUrl":"https://www.youtube.com/watch?v=9CiW_DgxCnQ"
         },
         {
             "id":"18",
@@ -326,7 +326,7 @@ const Json = `{
             "synopsis":"In the slums of Rio, two kids' paths diverge as one struggles to become a photographer and the other a kingpin.",
             "imageUrl":"https://www.miramax.com/assets/City-of-God1.png",
             "image2Url":"https://film-grab.com/wp-content/uploads/photo-gallery/City_of_God_009.jpg?bwg=1602064526",
-            "videoUrl":"https://youtu.be/RfnGQetbX-U"
+            "videoUrl":"https://www.youtube.com/watch?v=dcUOO4Itgmw"
         },
         {
             "id":"19",
@@ -340,7 +340,7 @@ const Json = `{
             "synopsis":"Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee and two droids to save the galaxy from the Empire's world-destroying battle station, while also attempting to rescue Princess Leia from the mysterious Darth Vader.",
             "imageUrl":"https://filmlibrary.ie/cdn/shop/products/star-wars-a-new-hope-special-approval-required-poster_1024x1024.jpg?v=1605648153",
             "image2Url":"https://l450v.alamy.com/450v/t2y47c/carrie-fisher-kenny-baker-star-wars-episode-iv-a-new-hope-1977-t2y47c.jpg",
-            "videoUrl":"https://youtu.be/vZ734NWnAHA"
+            "videoUrl":"https://www.youtube.com/watch?v=vZ734NWnAHA"
         },
         {
             "id":"20",
@@ -354,7 +354,7 @@ const Json = `{
             "synopsis":"Marty McFly, a 17-year-old high school student, is accidentally sent 30 years into the past in a time-traveling DeLorean invented by his close friend, the maverick scientist Doc Brown.",
             "imageUrl":"https://cdn.europosters.eu/image/1300/posters/back-to-the-future-i152504.jpg",
             "image2Url":"https://m.media-amazon.com/images/M/MV5BZGRjZDVkN2YtNGQyZi00NzkxLWJkNDAtYzNkY2M5M2M5MmUwXkEyXkFqcGdeQXRyYW5zY29kZS13b3JrZmxvdw@@._V1_QL75_UX500_CR0,0,500,281_.jpg",
-            "videoUrl":"https://youtu.be/6hDK9QdK2ok"
+            "videoUrl":"https://www.youtube.com/watch?v=qvsgGtivCgs"
         },
         {
             "id":"21",
@@ -368,7 +368,7 @@ const Json = `{
             "synopsis":"During WWII, acclaimed Polish musician Wladyslaw faces various struggles as he loses contact with his family. As the situation worsens, he hides in the ruins of Warsaw in order to survive.",
             "imageUrl":"https://cdn.shopify.com/s/files/1/2036/5517/products/MM00321970_1024x1024.jpg?v=1694453178",
             "image2Url":"https://s3.us-east-1.amazonaws.com/zweb-s3.uploads/visiontv/wp-content/uploads/2023/10/31130732/The-Pianist_06_1200.jpg",
-            "videoUrl":"https://youtu.be/HvREP795kgU"
+            "videoUrl":"https://www.youtube.com/watch?v=BFwGqLa_oAo"
         },
         {
             "id":"22",
@@ -382,7 +382,7 @@ const Json = `{
             "synopsis":"Lion prince Simba and his father are targeted by his bitter uncle, who wants to ascend the throne himself.",
             "imageUrl":"https://m.media-amazon.com/images/I/61jkTiX8NuL._AC_UF894,1000_QL80_.jpg",
             "image2Url":"https://cdn.kinocheck.com/i/w=480/n3l1py27p5.jpg",
-            "videoUrl":"https://youtu.be/lFzVJEksoDY"
+            "videoUrl":"https://www.youtube.com/watch?v=7TavVZMewpY"
         },
         {
             "id":"23",
@@ -396,7 +396,7 @@ const Json = `{
             "synopsis":"A cynical expatriate American cafe owner struggles to decide whether or not to help his former lover and her fugitive husband escape the Nazis in French Morocco.",
             "imageUrl":"https://storage.googleapis.com/pod_public/1300/145805.jpg",
             "image2Url":"https://storage.googleapis.com/pod_public/1300/145805.jpg",
-            "videoUrl":"https://youtu.be/MF7JH_54d8c"
+            "videoUrl":"https://www.youtube.com/watch?v=nqlROp1TIgo"
         },
         {
             "id":"24",
@@ -410,7 +410,7 @@ const Json = `{
             "synopsis":"A man refuses all assistance from his daughter as he ages. As he tries to make sense of his changing circumstances, he begins to doubt his loved ones, his own mind and even the fabric of his reality.",
             "imageUrl":"https://media-cache.cinematerial.com/p/500x/vntmjrsh/the-father-british-movie-poster.jpg?v=1600268666",
             "image2Url":"https://m.media-amazon.com/images/M/MV5BNDA5MmY1NDQtYzM5Ni00OTFlLWFlMjAtNzkxZDdlMTY3ZTUzXkEyXkFqcGdeQWFybm8@._V1_QL75_UX500_CR0,26,500,281_.jpg",
-            "videoUrl":"https://youtu.be/4TZb7YfK-JI"
+            "videoUrl":"https://www.youtube.com/watch?v=4TZb7YfK-JI"
         },
         {
             "id":"25",
@@ -424,7 +424,7 @@ const Json = `{
             "synopsis":"A New York City police officer tries to save his estranged wife and several others taken hostage by terrorists during a Christmas party at the Nakatomi Plaza in Los Angeles.",
             "imageUrl":"https://images.squarespace-cdn.com/content/v1/64393af6c3d4da7ca1099c71/1699098658415-HQNVWWEHBOFMHWQ7SDLT/Die+Hard.png",
             "image2Url":"https://images.bauerhosting.com/empire/2019/09/die-hard.jpg?ar=16%3A9&fit=crop&crop=top&auto=format&w=undefined&q=80",
-            "videoUrl":"https://youtu.be/gYWvwkXreaI"
+            "videoUrl":"https://www.youtube.com/watch?v=jaJuwKCmJbY"
         },
         {
             "id":"26",
@@ -438,7 +438,7 @@ const Json = `{
             "synopsis":"When a killer shark unleashes chaos on a beach community off Cape Cod, it's up to a local sheriff, a marine biologist, and an old seafarer to hunt the beast down.",
             "imageUrl":"https://m.media-amazon.com/images/I/81KLfL7j2CL._AC_UF894,1000_QL80_.jpg",
             "image2Url":"https://m.media-amazon.com/images/M/MV5BZTI1Y2I2ZTMtY2RmNy00NzUzLWFjYWItMzUxMWNmZmZjMDMzXkEyXkFqcGdeQVRoaXJkUGFydHlJbmdlc3Rpb25Xb3JrZmxvdw@@._V1_QL75_UX500_CR0,0,500,281_.jpg",
-            "videoUrl":"https://youtu.be/q-50_xoF9Kg"
+            "videoUrl":"https://www.youtube.com/watch?v=U1fu_sA7XhE"
         },
         {
             "id":"27",
@@ -452,7 +452,7 @@ const Json = `{
             "synopsis":"A pragmatic paleontologist touring an almost complete theme park on an island in Central America is tasked with protecting a couple of kids after a power failure causes the park's cloned dinosaurs to run loose.",
             "imageUrl":"https://m.media-amazon.com/images/I/91XMXQCZwKL._AC_UF350,350_QL80_.jpg",
             "image2Url":"https://www.intofilm.org/intofilm-production/scaledcropped/1096x548https%3A/s3-eu-west-1.amazonaws.com/images.cdn.filmclub.org/film__3877-jurassic-park--hi_res-458ae800.jpg/film__3877-jurassic-park--hi_res-458ae800.jpg",
-            "videoUrl":"https://youtu.be/lc0UehYemQA"
+            "videoUrl":"https://www.youtube.com/watch?v=E8WaFvwtphY"
         },
         {
             "id":"28",
@@ -466,7 +466,7 @@ const Json = `{
             "synopsis":"When a young girl is possessed by a mysterious entity, her mother seeks the help of two Catholic priests to save her life.",
             "imageUrl":"https://media.posterlounge.com/img/products/510000/507754/507754_poster.jpg",
             "image2Url":"https://toplist.vn/images/800px/the-exorcist-collection-my-55241.jpg",
-            "videoUrl":"https://youtu.be/YDGw1MTEe9k"
+            "videoUrl":"https://www.youtube.com/watch?v=YDGw1MTEe9k"
         },
         {
             "id":"29",
@@ -480,7 +480,7 @@ const Json = `{
             "synopsis":"A rat who can cook makes an unusual alliance with a young kitchen worker at a famous Paris restaurant.",
             "imageUrl":"https://i.ebayimg.com/images/g/qQsAAOSw--1bOR8h/s-l1600.jpg",
             "image2Url":"https://www.corriere.it/methode_image/2022/01/13/Cucina/Foto%20Cucina%20-%20Trattate/Ratatouille_copertina-kuTD--590x445@Corriere-Web-Sezioni.jpg",
-            "videoUrl":"https://youtu.be/c3sBBRxDAqk"
+            "videoUrl":"https://www.youtube.com/watch?v=NgsQ8mVkN8w"
         },
         {
             "id":"30",
@@ -494,10 +494,10 @@ const Json = `{
             "synopsis":"In a future where mutants are nearly extinct, an elderly and weary Logan leads a quiet life. But when Laura, a mutant child pursued by scientists, comes to him for help, he must get her to safety.",
             "imageUrl":"https://m.media-amazon.com/images/I/51wewtpj08L._AC_UF894,1000_QL80_.jpg",
             "image2Url":"https://m.media-amazon.com/images/M/MV5BMjQxNDgzMTU5M15BMl5BanBnXkFtZTgwODE3OTgxMTI@._V1_QL75_UX500_CR0,0,500,281_.jpg",
-            "videoUrl":"https://youtu.be/RH3OxVFvTeg"
+            "videoUrl":"https://www.youtube.com/watch?v=Div0iP65aZo"
         }
     ]
-}`
+}`;
 const myJson = JSON.parse(Json);
 
 //---------------------------------------------------------------------------------------------------------------------//
@@ -505,36 +505,37 @@ const myJson = JSON.parse(Json);
 //-------------------------WEBPAGE STRUCTURE AND MAIN FUNCTIONS ONCE THE WEBPAGE IS LOADED-----------------------------//
 
 window.addEventListener("load", () => {
+  //-----Running carousel---------------//
+  runCarrousel();
 
-    //-----Running carousel---------------//
-    runCarrousel();
+  //-----Running Movie List in order to display all available movies-------------//
+  showMoviesList();
 
-    //-----Running Movie List in order to display all available movies-------------//
-    showMoviesList();
-
-    //-----Running movies content by clicking the picture of every movie-----------------------------------------------//
-    const movieSelection = document.querySelectorAll(".movieListPicture");
-    movieSelection.forEach(movieSelection => {
-        movieSelection.addEventListener("click", e => {
-            showMovieContent(e.target.id);
-        });
+  //-----Running movies content by clicking the picture of every movie-----------------------------------------------//
+  const movieSelection = document.querySelectorAll(".movieListPicture");
+  movieSelection.forEach((movieSelection) => {
+    movieSelection.addEventListener("click", (e) => {
+      showMovieContent(e.target.id);
     });
-
-    //------Running searcher input in order to find the wished movie--------------//
-    const movieSearched = document.querySelectorAll(".movie");
-    const searcher = document.querySelector(".search")
-
-    searcher.addEventListener("keyup", e=>{
-        movieSearched.forEach(movieSelected =>{
-            //---if the movie if found a new class should be added to the div in order to appear selected movie and disappear the other movies--//
-            if(movieSelected.textContent.toLowerCase().includes(e.target.value.toLowerCase().trim())){
-                movieSelected.classList.remove("desactive");
-            } else {
-                movieSelected.classList.add("desactive");
-            }
-        })
-    })
   });
+
+  //------Running searcher input in order to find the wished movie--------------//
+  const movieSearched = document.querySelectorAll(".movie");
+  const searcher = document.querySelector(".search");
+
+  searcher.addEventListener("keyup", (e) => {
+    movieSearched.forEach((movieSelected) => {
+      //---if the movie if found a new class should be added to the div in order to appear selected movie and disappear the other movies--//
+      if (
+        movieSelected.textContent.toLowerCase().includes(e.target.value.toLowerCase().trim()) //Searching by letters entered
+      ) {
+        movieSelected.classList.remove("desactive"); // showing movies
+      } else {
+        movieSelected.classList.add("desactive"); // hiding movies
+      }
+    });
+  });
+});
 //----------------------------------------------------------------------------------------------------------------------//
 
 //----------------------------------------------------CAROUSEL----------------------------------------------------------//
@@ -542,49 +543,73 @@ const carousel = document.querySelector(".carrousel");
 const picture = document.querySelector(".picture");
 const carouselTitle = document.querySelector(".carousel-title");
 
-picture.addEventListener("click", e=>{showMovieContent(e.target.id)})
+picture.addEventListener("click", (e) => {
+  showMovieContent(e.target.id);
+});
 
 let currentPosition = 0;
-const buttonBackward = document.querySelector(".back").addEventListener("click",(e)=>Backward());
+const buttonBackward = document
+  .querySelector(".back")
+  .addEventListener("click", (e) => Backward());
 const carrouselImage = document.querySelector(".carrousel-image");
-const buttonForward = document.querySelector(".forth").addEventListener("click",(e)=>Forward());
-const checkMobile = window.matchMedia('screen and (max-width: 992px)').matches;
+const buttonForward = document
+  .querySelector(".forth")
+  .addEventListener("click", (e) => Forward());
+const checkMobile = window.matchMedia("screen and (max-width: 992px)").matches;
 
-//----function to go back to previous image-----
-function Backward(){
-    if(currentPosition <= 0) {
-        currentPosition = myJson.top5.length - 1;
-    } else {
-        currentPosition--;
-    }
-    if(window.matchMedia('screen and (max-width: 892px)').matches) showCarrouselImage(myJson.top5[currentPosition].imageUrl,myJson.top5[currentPosition].id,myJson.top5[currentPosition].title);
-    else showCarrouselImage(myJson.top5[currentPosition].image2Url,myJson.top5[currentPosition].id,myJson.top5[currentPosition].title);
+//----function to go back to previous image-----//
+function Backward() {
+  if (currentPosition <= 0) {
+    currentPosition = myJson.top5.length - 1;
+  } else {
+    currentPosition--;
+  }
+  if (window.matchMedia("screen and (max-width: 992px)").matches)
+    showCarrouselImage(
+      myJson.top5[currentPosition].imageUrl,
+      myJson.top5[currentPosition].id,
+      myJson.top5[currentPosition].title
+    );
+  else
+    showCarrouselImage(
+      myJson.top5[currentPosition].image2Url,
+      myJson.top5[currentPosition].id,
+      myJson.top5[currentPosition].title
+    );
 }
 
-//----function to go forward to next image-----
-function Forward(){
-    if(currentPosition >= myJson.top5.length - 1){
-        currentPosition = 0;
-    } else {
-        currentPosition++
-    }
-    if(window.matchMedia('screen and (max-width: 792px)').matches) showCarrouselImage(myJson.top5[currentPosition].imageUrl,myJson.top5[currentPosition].id,myJson.top5[currentPosition].title);
-    else showCarrouselImage(myJson.top5[currentPosition].image2Url,myJson.top5[currentPosition].id,myJson.top5[currentPosition].title);
+//----function to go forward to next image-----//
+function Forward() {
+  if (currentPosition >= myJson.top5.length - 1) {
+    currentPosition = 0;
+  } else {
+    currentPosition++;
+  }
+  if (window.matchMedia("screen and (max-width: 992px)").matches)
+    showCarrouselImage(
+      myJson.top5[currentPosition].imageUrl,
+      myJson.top5[currentPosition].id,
+      myJson.top5[currentPosition].title
+    );
+  else
+    showCarrouselImage(
+      myJson.top5[currentPosition].image2Url,
+      myJson.top5[currentPosition].id,
+      myJson.top5[currentPosition].title
+    );
 }
 
 //function to set attributes in order to show the current image
-function showCarrouselImage(url,id,alt){
-    picture.setAttribute("id",id)
-    picture.setAttribute("src", url);
-    picture.setAttribute("alt", alt);
-    carouselTitle.textContent = alt;
-
+function showCarrouselImage(url, id, alt) {
+  picture.setAttribute("id", id);
+  picture.setAttribute("src", url);
+  picture.setAttribute("alt", alt);
+  carouselTitle.textContent = alt;
 }
 
 //-----Fuction to change forward the carousel images every 7 seconds----------
-function runCarrousel(){
-    setInterval(Forward, 7000);
-
+function runCarrousel() {
+  setInterval(Forward, 5000);
 }
 //-----------------------------------------------------------------------------------------------------------------------//
 
@@ -593,19 +618,19 @@ function runCarrousel(){
 const listContainer = document.querySelector(".movies-list");
 
 //-----Function to manipulate the DOM in order to create a div with an image coming from JSON---------------
-function showMoviesList(){
-    let documentFragment = document.createDocumentFragment()
-    myJson.movies.forEach(e => {
-        let div = document.createElement("DIV");
-        div.setAttribute("class", "movie");
-        div.innerHTML = `<img src=${e.imageUrl} id=${e.id} alt="${e.title}" class="movieListPicture"/>
+function showMoviesList() {
+  let documentFragment = document.createDocumentFragment();
+  myJson.movies.forEach((e) => {
+    let div = document.createElement("DIV");
+    div.setAttribute("class", "movie");
+    div.setAttribute("id", e.id);
+    div.innerHTML = `<img src=${e.imageUrl} id=${e.id} alt="${e.title}" class="movieListPicture"/>
                         ${e.title}`;
-        documentFragment.appendChild(div);
-    });
+    documentFragment.appendChild(div);
+  });
 
-    listContainer.innerHTML = '';
-    listContainer.appendChild(documentFragment);
-
+  listContainer.innerHTML = "";
+  listContainer.appendChild(documentFragment);
 }
 
 //------------------------------------------------------------------------------------------------------------------------//
@@ -613,7 +638,7 @@ function showMoviesList(){
 //---------------------------------------------------MOVIE CONTENT BOX----------------------------------------------------//
 
 const movieContainer = document.querySelector(".movieInfo-container");
-const escape = document.querySelector(".escape").addEventListener("click",e=>closeMovieContent())
+const escape = document.querySelector(".escape").addEventListener("click", (e) => closeMovieContent());
 const movieVideo = document.querySelector(".movie-video");
 const movieBg = document.querySelector(".movie-content");
 const movieImg = document.querySelector(".movie-img");
@@ -625,56 +650,57 @@ const movieAge = document.querySelector(".movie-age");
 const movieDirector = document.querySelector(".movie-director");
 const movieActors = document.querySelector(".movie-actors");
 const movieSynopsis = document.querySelector(".movie-synopsis");
-const bookingButton = document.querySelector(".booking").addEventListener("click", e=>{
-    myForm(true);
-})
+const bookingButton = document.querySelector(".booking").addEventListener("click", (e) => {myForm(true);});
 
-
-//----------------Function to display the clicked movie information-------------
-function showMovieContent(idNumber){
-    listContainer.style.display = "none";
-    carousel.style.display = "none";
-    let id = idNumber - 1;
-        selectMovieTrailer(myJson.movies[id].videoUrl);
-        //movieVideo.setAttribute("src",myJson.movies[id].videoUrl);
-        movieContainer.style.display ="flex";
-        console.log(myJson.movies[id].videoUrl)
-        //movieVideo.src = myJson.movie[id].videoUrl;
-        movieImg.setAttribute("src",myJson.movies[id].image2Url);
-        movieImg.setAttribute("alt",myJson.movies[id].title);
-        movieTitle.textContent = `${myJson.movies[id].title}`;
-        movieRuntime.textContent = `Runtime: ${myJson.movies[id].runtime}`;
-        movieGenre.textContent = `Genre: ${myJson.movies[id].genre}`;
-        movieYear.textContent = `Release Year: ${myJson.movies[id].Year}`;
-        movieAge.textContent = `Age Classification: ${myJson.movies[id].ageClassification}`;
-        movieDirector.textContent = `Director: ${myJson.movies[id].director}`;
-        movieActors.textContent = `Actors: ${myJson.movies[id].actors}`;
-        movieSynopsis.textContent = `Synopsis: ${myJson.movies[id].synopsis}`;
+//----------------Function to display the movie information when a movie is clicked-------------//
+function showMovieContent(idNumber) {
+  listContainer.style.display = "none";
+  carousel.style.display = "none";
+  let id = idNumber - 1;
+  selectMovieTrailer(myJson.movies[id].videoUrl);
+  movieContainer.style.display = "flex";
+  console.log(myJson.movies[id].videoUrl);
+  movieImg.setAttribute("src", myJson.movies[id].imageUrl);
+  movieImg.setAttribute("alt", myJson.movies[id].title);
+  movieTitle.textContent = `${myJson.movies[id].title}`;
+  movieRuntime.textContent = `Runtime: ${myJson.movies[id].runtime}`;
+  movieGenre.textContent = `Genre: ${myJson.movies[id].genre}`;
+  movieYear.textContent = `Release Year: ${myJson.movies[id].Year}`;
+  movieAge.textContent = `Age Classification: ${myJson.movies[id].ageClassification}`;
+  movieDirector.textContent = `Director: ${myJson.movies[id].director}`;
+  movieActors.textContent = `Actors: ${myJson.movies[id].actors}`;
+  movieSynopsis.textContent = `Synopsis: ${myJson.movies[id].synopsis}`;
 }
 
 let currentVideoElement = null;
-function selectMovieTrailer(movie){
+
+//----------Displaying Movie Trailer within movie content ------------------------//
+function selectMovieTrailer(movie) {
+  try {
     if (currentVideoElement) {
-        movieVideo.removeChild(currentVideoElement);
+      movieVideo.removeChild(currentVideoElement);
     }
     let videoElement = document.createElement("iframe");
-    videoElement.width = "560"; // Video width
+
+    videoElement.width = "60%"; // Video width
     videoElement.height = "315"; // Video height
     videoElement.src = movie.replace("watch?v=", "embed/"); // Converting youtube link to embed format
 
     movieVideo.appendChild(videoElement);
-
     currentVideoElement = videoElement;
+  } catch (e) {
+    console.log(e);
+  }
 }
 //-------------------Function to close the box when 'X' is clicked--------------------
-function closeMovieContent(){
-    movieContainer.style.display = "none";
-    listContainer.style.display = "flex";
-    carousel.style.display = "flex";
-    movieVideo.removeChild(videoElement);
-    myForm(false);
+function closeMovieContent() {
+  movieContainer.style.display = "none";
+  listContainer.style.display = "flex";
+  carousel.style.display = "flex";
+  myForm(false); //Closing form
 }
 
+//--------------------------------------------------------------------------------------------------------------------------//
 //--------------------------------------------------------------------------------------------------------------------------//
 
 //---------------------------------FORM------------------------------------
@@ -697,115 +723,143 @@ const timeMessage = document.querySelector(".tim");
 const ticketMessage = document.querySelector(".ticketQ");
 //-----------------------------------//
 
+//-------Setting form input-------------------//
 const form = document.getElementById("myForm");
 
-const cancel = document.querySelector(".cancel").addEventListener("click", e=>{
+const cancel = document
+  .querySelector(".cancel")
+  .addEventListener("click", (e) => {
     myFormCancel();
-});
+  });
 
 const firstName = document.getElementById("firstName");
-firstName.addEventListener("keyup",e=>{inputLength(e.target.value,firstName)});
+firstName.addEventListener("keyup", (e) => {
+  inputLength(e.target.value, firstName);
+});
 
 const lastName = document.getElementById("lastName");
-lastName.addEventListener("keyup",e=>{inputLength(e.target.value,lastName)});
+lastName.addEventListener("keyup", (e) => {
+  inputLength(e.target.value, lastName);
+});
 
 const emailAddress = document.getElementById("email");
-emailAddress.addEventListener("keyup",e=>{emailChecker(e.target.value)});
+emailAddress.addEventListener("keyup", (e) => {
+  emailChecker(e.target.value);
+});
 
 const cinema = document.getElementById("cinema");
-cinema.addEventListener("change",e=>{cinemaChecker(e.target.value)});
+cinema.addEventListener("change", (e) => {
+  cinemaChecker(e.target.value);
+});
 
 const schedule = document.getElementById("time");
-schedule.addEventListener("change",e=>{timeChecker(e.target.value)});
+schedule.addEventListener("change", (e) => {
+  timeChecker(e.target.value);
+});
 
 const ticketAmount = document.getElementById("ticketQuantity");
-ticketAmount.addEventListener("change",e=>{ticketChecker(e.target.value)});
+ticketAmount.addEventListener("change", (e) => {
+  ticketChecker(e.target.value);
+});
+//--------------------------------------------------//
 
-function myForm(OC){
-    if(OC) form.style.display = "flex";
-    else form.style.display = "none"; 
+//---------------form functions---------------------//
+//-------------Showing up the form---------------//
+function myForm(OC) {
+  if (OC) form.style.display = "flex";
+  else form.style.display = "none";
 }
-
-function myFormCancel(){
-    form.style.display = "none";
-}
-
-function inputLength(value,obj){
-    if(value.length > 1 && value.match("^[a-zA-Z]+$")){
-        obj.style.border = "3px solid green";
-        if(obj == firstName){
-            fn = true;
-            firstNameMessage.textContent = "";
-        }
-        else{
-            ln = true;
-            lastNameMessage.textContent = "";
-        }
-    }else {
-        obj.style.border = "3px solid red";
-        if(obj == firstName){
-            fn = false;
-            firstNameMessage.textContent = "First Name must be letters and no less than 2";
-        }else{
-            ln = false;
-            lastNameMessage.textContent = "Last Name must be letters and no less than 2";
-        } 
-    }
+//------------------Cancel button function--------//
+function myFormCancel() {
+  form.style.display = "none";
 }
 
-function emailChecker(email){
-    let regexPattern = "^(?=.{1,64}@)[A-Za-z0-9_-]+(\\.[A-Za-z0-9_-]+)*@" 
-        + "[^-][A-Za-z0-9-]+(\\.[A-Za-z0-9-]+)*(\\.[A-Za-z]{2,})$";
-    if(email.match(regexPattern)){
-        emailAddress.style.border = "3px solid green"; 
-        ea =true;
-        emailMessage.textContent = "";
+//-----------------First Name and Last Name validator function --------//
+function inputLength(value, obj) {
+  if (value.length > 1 && value.match("^[a-zA-Z]+$")) {
+    obj.style.border = "3px solid green";
+    if (obj == firstName) {
+      fn = true;
+      firstNameMessage.textContent = "";
+    } else {
+      ln = true;
+      lastNameMessage.textContent = "";
     }
-    else{
-        emailAddress.style.border = "3px solid red";
-        ea=false;
-        emailMessage.textContent = "Please introduce a valid email address";
+  } else {
+    obj.style.border = "3px solid red";
+    if (obj == firstName) {
+      fn = false;
+      firstNameMessage.textContent =
+        "First Name must be letters and no less than 2";
+    } else {
+      ln = false;
+      lastNameMessage.textContent =
+        "Last Name must be letters and no less than 2";
     }
+  }
 }
-function cinemaChecker(cinemaSelected){
-    if(cinemaSelected != "cinema"){
-        cinema.style.border = "3px solid green"; 
-        cin = true;
-        cinemaMessage.textContent = "";
-    }else {
-        cinema.style.border = "3px solid red";
-        cin = false;
-        cinemaMessage.textContent = "Please select a cinema";
-    }
-}
-function timeChecker(time){
-    if(time != "time") {
-        schedule.style.border = "3px solid green";
-        tim=true;
-        timeMessage.textContent = "";
-    }else {
-        schedule.style.border = "3px solid red";
-        tim=false;
-        timeMessage.textContent = "Please select a valid time";
-    }
-}
-
-function ticketChecker(ticket){
-    if(ticket >= 1 && ticket <= 10){
-        ticketAmount.style.border = "3px solid green";
-        tick = true;
-        ticketMessage.textContent = "";
-    } 
-    else{ 
-        ticketAmount.style.border = "3px solid red";
-        tick = false;
-        ticketMessage.textContent = "Please introduce a ticket from 1 to 10";
-    }
+//-----------email checker function ------------------------//
+function emailChecker(email) {
+  let regexPattern =
+    "^(?=.{1,64}@)[A-Za-z0-9_-]+(\\.[A-Za-z0-9_-]+)*@" +
+    "[^-][A-Za-z0-9-]+(\\.[A-Za-z0-9-]+)*(\\.[A-Za-z]{2,})$";
+  if (email.match(regexPattern)) {
+    emailAddress.style.border = "3px solid green";
+    ea = true;
+    emailMessage.textContent = "";
+  } else {
+    emailAddress.style.border = "3px solid red";
+    ea = false;
+    emailMessage.textContent = "Please introduce a valid email address";
+  }
 }
 
-const book = document.querySelector(".book").addEventListener("click",e=>{
-    if(fn == true && ln == true && ea == true && cin == true && tim == true && tick == true){
-        myFormCancel();
-        console.log("well done")
-    }
+//----------------cinema selection function-----------------//
+function cinemaChecker(cinemaSelected) {
+  if (cinemaSelected != "cinema") {
+    cinema.style.border = "3px solid green";
+    cin = true;
+    cinemaMessage.textContent = "";
+  } else {
+    cinema.style.border = "3px solid red";
+    cin = false;
+    cinemaMessage.textContent = "Please select a cinema";
+  }
+}
+//------------------Movie time function-----------------//
+function timeChecker(time) {
+  if (time != "time") {
+    schedule.style.border = "3px solid green";
+    tim = true;
+    timeMessage.textContent = "";
+  } else {
+    schedule.style.border = "3px solid red";
+    tim = false;
+    timeMessage.textContent = "Please select a valid time";
+  }
+}
+//---------------Ticket checker function----------------//
+function ticketChecker(ticket) {
+  if (ticket >= 1 && ticket <= 10) {
+    ticketAmount.style.border = "3px solid green";
+    tick = true;
+    ticketMessage.textContent = "";
+  } else {
+    ticketAmount.style.border = "3px solid red";
+    tick = false;
+    ticketMessage.textContent = "Please introduce a ticket from 1 to 10";
+  }
+}
+//----------------Booking button validator function-----------------//
+const book = document.querySelector(".book").addEventListener("click", (e) => {
+  if (
+    fn == true &&
+    ln == true &&
+    ea == true &&
+    cin == true &&
+    tim == true &&
+    tick == true
+  ) {
+    myFormCancel();
+  }
 });
