@@ -68,7 +68,7 @@ body {
   max-width: 100rem;
   margin-top: 8dvh;
   height: 92dvh;
-  background-color: rgb(68, 68, 68);
+  background-color:rgba(186, 186, 186, 0.8);
   position: relative;
 }
 .back {
@@ -81,13 +81,14 @@ body {
   border-radius: 10px;
   padding: 5px 10px;
   text-align: center;
+  color: black;
   :focus{
     outline:none;
   }
 }
 .backward:hover,
 .forward:hover {
-  background: rgb(167, 167, 167);
+  background: rgb(68, 68, 68);
 }
 .forth {
   top: 0;

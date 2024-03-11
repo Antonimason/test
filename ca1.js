@@ -540,19 +540,16 @@ const myJson = JSON.parse(Json);
 //-------------------------WEBPAGE STRUCTURE AND MAIN FUNCTIONS ONCE THE WEBPAGE IS LOADED-----------------------------//
 
 window.addEventListener("load", () => {
-  //-----Running carousel---------------//
-  runCarrousel();
+  runCarrousel(); //Running carousel
 
-  //-----Running Movie List in order to display all available movies-------------//
-  showMoviesList();
+  showMoviesList(); //Running Movie List in order to display all available movies
 
   //------Running searcher input in order to find the wished movie--------------//
-  const movieSearched = document.querySelectorAll(".movie");
   const searcher = document.querySelector(".search");
-  console.log(searcher.value)
   searcher.addEventListener("keyup", (e) => {
-    showMoviesList(e.target.value.toLowerCase().trim())
+    showMoviesList(e.target.value.toLowerCase().trim()) //Calling function with word written in searcher
   });
+
   /*searcher.addEventListener("keyup", (e) => {
     movieSearched.forEach((movieSelected) => {
       //---if the movie if found a new class should be added to the div in order to appear selected movie and disappear the other movies--//
@@ -569,31 +566,28 @@ window.addEventListener("load", () => {
 //----------------------------------------------------------------------------------------------------------------------//
 
 //----------------------------------------------------CAROUSEL----------------------------------------------------------//
-const carousel = document.querySelector(".carrousel");
-const picture = document.querySelector(".picture");
-const carouselTitle = document.querySelector(".carousel-title");
+const carousel = document.querySelector(".carrousel"); // Carousel container
+const carouselTitle = document.querySelector(".carousel-title"); // Carousel title
+let currentPosition = 0; // Carousel counter
+const buttonBackward = document.querySelector(".back").addEventListener("click", (e) => Backward()); //Carousel button to go backward
+const carrouselImage = document.querySelector(".carrousel-image"); //Carousel picture container
+const picture = document.querySelector(".picture"); // Carousel picture
+const buttonForward = document.querySelector(".forth").addEventListener("click", (e) => Forward()); //Carousel button to go forward
+const checkMobile = window.matchMedia("screen and (max-width: 992px)").matches; //creating a breakpoint media for mobile
 
-picture.addEventListener("click", (e) => {
+
+picture.addEventListener("click", (e) => { //if picture is clicked movie content will be displayed
   showMovieContent(e.target.id);
 });
 
-let currentPosition = 0;
-const buttonBackward = document
-  .querySelector(".back")
-  .addEventListener("click", (e) => Backward());
-const carrouselImage = document.querySelector(".carrousel-image");
-const buttonForward = document
-  .querySelector(".forth")
-  .addEventListener("click", (e) => Forward());
-const checkMobile = window.matchMedia("screen and (max-width: 992px)").matches;
-
-//----function to go back to previous image-----//
+//------------------------------function to go back to previous image------------------------------------//
 function Backward() {
-  if (currentPosition <= 0) {
+  if (currentPosition <= 0) { //if movie is in the first position, counter goes to last position
     currentPosition = myJson.top5.length - 1;
   } else {
-    currentPosition--;
+    currentPosition--; // substract 1 to counter
   }
+  //----Media conditional for mobile in order to show mobile pcitures----//
   if (window.matchMedia("screen and (max-width: 992px)").matches)
     showCarrouselImage(
       myJson.top5[currentPosition].imageUrl,
@@ -610,11 +604,12 @@ function Backward() {
 
 //----function to go forward to next image-----//
 function Forward() {
-  if (currentPosition >= myJson.top5.length - 1) {
+  if (currentPosition >= myJson.top5.length - 1) { //if movie is in the last position, counter goes to 0
     currentPosition = 0;
   } else {
-    currentPosition++;
+    currentPosition++; // add 1 to counter
   }
+  //----------------------Media conditional for mobile in order to show mobile pcitures------------------//
   if (window.matchMedia("screen and (max-width: 992px)").matches)
     showCarrouselImage(
       myJson.top5[currentPosition].imageUrl,
@@ -629,7 +624,7 @@ function Forward() {
     );
 }
 
-//function to set attributes in order to show the current image
+//function to set attributes in order to show the current image within the carousel
 function showCarrouselImage(url, id, alt) {
   picture.setAttribute("id", id);
   picture.setAttribute("src", url);
@@ -637,9 +632,9 @@ function showCarrouselImage(url, id, alt) {
   carouselTitle.textContent = alt;
 }
 
-//-----Fuction to change forward the carousel images every 7 seconds----------
+//-------------------Fuction to change forward the carousel images every 7 seconds-------------------//
 function runCarrousel() {
-  setInterval(Forward, 5000);
+  setInterval(Forward, 5000); 
 }
 //-----------------------------------------------------------------------------------------------------------------------//
 
@@ -653,8 +648,9 @@ const selectCinema = document.getElementById("cinemaSelection");
 function showMoviesList(searcher) {
   let documentFragment = document.createDocumentFragment();
 
-  if(searcher == undefined){
+  if(searcher == undefined){ //if searcher is empty, all movies will be displayed
     myJson.movies.forEach((e) => {
+      //Creating a div which will contain the movie for movie list
       let div = document.createElement("DIV");
       div.setAttribute("class", "movie");
       div.setAttribute("id", e.id);
@@ -664,10 +660,11 @@ function showMoviesList(searcher) {
     });
 }else{
   myJson.movies.forEach((e) => {
-    
     let i = e;
+    // search movie by movie name, movie actors and movie genre
     let searcherMatches = i.actors.toLowerCase().includes(searcher) || i.title.toLowerCase().includes(searcher) || i.genre.toLowerCase().includes(searcher);
     if(searcherMatches){
+      //Creating a div which will contain the movie for movie list
       let div = document.createElement("DIV");
       div.setAttribute("class", "movie");
       div.innerHTML = `<img src=${e.imageUrl} id=${e.id} alt="${e.title}" class="movieListPicture"/>
@@ -676,6 +673,7 @@ function showMoviesList(searcher) {
     }
   });
 }
+  //reseting listContainer in order to clear the whole container
   listContainer.innerHTML = "";
   listContainer.appendChild(documentFragment);
 
@@ -738,8 +736,8 @@ function selectMovieTrailer(movie) {
     }
     let videoElement = document.createElement("iframe");
 
-    videoElement.width = "60%"; // Video width
-    videoElement.height = "315"; // Video height
+    videoElement.width = "100%"; // Video width
+    videoElement.height = "415"; // Video height
     videoElement.src = movie.replace("watch?v=", "embed/"); // Converting youtube link to embed format
 
     movieVideo.appendChild(videoElement);
@@ -783,37 +781,39 @@ const ticketMessage = document.querySelector(".ticketQ");
 //-------Setting form input-------------------//
 const form = document.getElementById("myForm");
 
-const cancel = document
-  .querySelector(".cancel")
-  .addEventListener("click", (e) => {
-    myFormCancel();
-  });
+//If cancel button is pressed the form will close
+const cancel = document.querySelector(".cancel").addEventListener("click", (e) => {myFormCancel();});
 
+//getting firstname input info
 const firstName = document.getElementById("firstName");
 firstName.addEventListener("keyup", (e) => {
   inputLength(e.target.value, firstName);
 });
 
+//getting lastname input info
 const lastName = document.getElementById("lastName");
 lastName.addEventListener("keyup", (e) => {
   inputLength(e.target.value, lastName);
 });
 
+//getting email address input info
 const emailAddress = document.getElementById("email");
 emailAddress.addEventListener("keyup", (e) => {
   emailChecker(e.target.value);
 });
-
+//getting cinema input info
 const cinema = document.getElementById("cinema");
 cinema.addEventListener("change", (e) => {
   cinemaChecker(e.target.value);
 });
 
+//getting time input info
 const schedule = document.getElementById("time");
 schedule.addEventListener("change", (e) => {
   timeChecker(e.target.value);
 });
 
+//getting ticket amount input info
 const ticketAmount = document.getElementById("ticketQuantity");
 ticketAmount.addEventListener("change", (e) => {
   ticketChecker(e.target.value);
